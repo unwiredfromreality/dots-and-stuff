@@ -1,0 +1,8 @@
+profile Home {
+	output eDP-1 mode 3840x2400 scale 2 position 0,1080 position 1920,0 transform normal
+	output "BNQ BenQ GW2760HL 95H02665SL0" mode 1920x1080 position 0,0 transform normal
+}
+
+profile Undocked {
+        output eDP-1 mode 3840x2400 scale 2 position 0,0 transform normal
+}
