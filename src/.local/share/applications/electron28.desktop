@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Electron 28
-Icon=electron28
-Exec=electron28 %u
-Categories=Development;GTK;
-StartupNotify=true
-NoDisplay=true
