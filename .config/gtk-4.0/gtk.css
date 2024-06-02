@@ -1,0 +1,118 @@
+/*
+Generated with Gradience
+
+Issues caused by theming should be reported to Gradience repository, and not to upstream
+
+https://github.com/GradienceTeam/Gradience
+*/
+
+@define-color accent_color #d5c4a1;
+@define-color accent_bg_color #d5c4a1;
+@define-color accent_fg_color #3c3836;
+@define-color destructive_color #e67e80;
+@define-color destructive_bg_color #d93b3e;
+@define-color destructive_fg_color #d5c4a1;
+@define-color success_color #a7c080;
+@define-color success_bg_color #6e8944;
+@define-color success_fg_color #d5c4a1;
+@define-color warning_color #dbbc7f;
+@define-color warning_bg_color #ad8331;
+@define-color warning_fg_color rgba(30, 35, 38, 0.85);
+@define-color error_color #e67e80;
+@define-color error_bg_color #d93b3e;
+@define-color error_fg_color #d5c4a1;
+@define-color window_bg_color #282828;
+@define-color window_fg_color #d5c4a1;
+@define-color view_bg_color #3c3836;
+@define-color view_fg_color #d5c4a1;
+@define-color headerbar_bg_color #3c3836;
+@define-color headerbar_fg_color #d5c4a1;
+@define-color headerbar_border_color #d5c4a1;
+@define-color headerbar_backdrop_color #3c3836;
+@define-color headerbar_shade_color transparent;
+@define-color card_bg_color #3c3836;
+@define-color card_fg_color #d5c4a1;
+@define-color card_shade_color transparent;
+@define-color dialog_bg_color #282828;
+@define-color dialog_fg_color #d5c4a1;
+@define-color popover_bg_color #282828;
+@define-color popover_fg_color #d5c4a1;
+@define-color shade_color transparent;
+@define-color scrollbar_outline_color transparent;
+@define-color headerbar_darker_shade_color transparent;
+@define-color sidebar_bg_color #282828;
+@define-color sidebar_fg_color #d5c4a1;
+@define-color sidebar_backdrop_color #282828;
+@define-color sidebar_shade_color transparent;
+@define-color secondary_sidebar_bg_color #282828;
+@define-color secondary_sidebar_fg_color #d5c4a1;
+@define-color secondary_sidebar_backdrop_color #2f383e;
+@define-color secondary_sidebar_shade_color transparent;
+@define-color thumbnail_bg_color #282828;
+@define-color thumbnail_fg_color #d5c4a1;
+@define-color popover_shade_color transparent;
+@define-color blue_1 #b9dad5;
+@define-color blue_2 #7fbbb3;
+@define-color blue_3 #58a69c;
+@define-color blue_4 #4e9289;
+@define-color blue_5 #3e756e;
+@define-color green_1 #b8cc99;
+@define-color green_2 #a7c080;
+@define-color green_3 #97b569;
+@define-color green_4 #88a954;
+@define-color green_5 #6e8944;
+@define-color yellow_1 #e6d0a5;
+@define-color yellow_2 #dbbc7f;
+@define-color yellow_3 #d2ab5f;
+@define-color yellow_4 #c99a3e;
+@define-color yellow_5 #ad8331;
+@define-color orange_1 #f0c1ac;
+@define-color orange_2 #ebac90;
+@define-color orange_3 #e69875;
+@define-color orange_4 #e2885f;
+@define-color orange_5 #de7749;
+@define-color red_1 #eb9799;
+@define-color red_2 #e67e80;
+@define-color red_3 #e06063;
+@define-color red_4 #dd5154;
+@define-color red_5 #d93b3e;
+@define-color purple_1 #e2b7cc;
+@define-color purple_2 #d699b6;
+@define-color purple_3 #ce85a8;
+@define-color purple_4 #c6729a;
+@define-color purple_5 #bc5887;
+@define-color brown_1 #d8bca6;
+@define-color brown_2 #c79f80;
+@define-color brown_3 #bf926f;
+@define-color brown_4 #b38663;
+@define-color brown_5 #a57149;
+@define-color light_1 #d5c4a1;
+@define-color light_2 #f4f0d9;
+@define-color light_3 #efebd4;
+@define-color light_4 #e6e2cc;
+@define-color light_5 #e0dcc7;
+@define-color dark_1 #475258;
+@define-color dark_2 #282828;
+@define-color dark_3 #282828;
+@define-color dark_4 #282828;
+@define-color dark_5 #272e33;
+
+/* Remove rounded corners */
+.titlebar,
+.titlebar .background,
+decoration,
+window,
+window.background
+{
+    border-radius: 0;
+}
+
+/* Remove csd shadows */
+
+window {
+border: 2px solid #433e3c;
+box-shadow: none;
+}
+window.maximized, window.fullscreen {
+border: none;
+}

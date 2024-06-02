@@ -2,3 +2,4 @@ XCURSOR_THEME=Capitaine-Cursors-Gruvbox-White
 XCURSOR_SIZE=40
 PATH=/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/sbin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/.local/bin
 QT_QPA_PLATFORMTHEME=qt6ct
+ADW_DISABLE_PORTAL=1
