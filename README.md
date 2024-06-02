@@ -7,7 +7,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 
 ![](/swappy-20240602-155911.png)
 
-List of Applications
+# List of Applications
 - **WM / Compositor** - [labwc](https://labwc.github.io)
 - **Lockscreen** - [gtklock](https://github.com/jovanlanik/gtklock)
 - **Idle Control** - [swayidle](https://github.com/swaywm/swayidle)
@@ -19,20 +19,21 @@ List of Applications
 - **Power Menu** - [rofi](https://github.com/davatorium/rofi)
 - **Terminal** - [kitty](https://github.com/kovidgoyal/kitty)
 
-Other Applications
+# Other Applications
 - **MATE applications** (*caja*, *atril*, *engrampa*, *mate-system-monitor*, *mate-polkit*)
 - **Browser** - Firefox ([css config here](chrome))
 - **Spotify client** - AUR client with [Spicetify](https://spicetify.app/) (theme included [here](/.config/spicetify/Themes/main))
 - **Audio mixer** - [pavucontrol](https://github.com/pulseaudio/pavucontrol)
 - **Bluetooth manager** - [blueman](https://github.com/blueman-project/blueman)
 
-Themes:
-- Openbox Theme: [Vent (icons only](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
-- GTK theme: [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
-- Kvantum theme: [gruvbox-material-brown (slightly modified)](https://github.com/sachnr/gruvbox-kvantum-themes/tree/main)
+# Themes
+- **Openbox Theme** - [Vent (icons only](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
+- **GTK theme** - [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
+- **Kvantum theme** - [gruvbox-material-brown (slightly modified)](https://github.com/sachnr/gruvbox-kvantum-themes/tree/main)
 
-Fonts: 
+# Fonts
 - [IosevkaTermSlab Nerd Font](https://archlinux.org/packages/extra/any/ttf-iosevkatermslab-nerd/)
 - [IosevkaAile](https://archlinux.org/packages/extra/any/ttc-iosevka-aile/) (for gtk and qt apps)
 
-Wallpaper: by [@kitoyaki on X](https://x.com/kitoyaki) (follow him for monthly wallpaper threads!)
+# Wallpaper
+- by [@kitoyaki on X](https://x.com/kitoyaki) (follow him for monthly wallpaper threads!)
