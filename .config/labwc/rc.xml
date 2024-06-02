@@ -263,7 +263,7 @@
       <action name="Execute" command="brightnessctl set 10%-" />
     </keybind>
     <keybind key="W-S-s">
-      <action name="Execute" command="sh /home/riley/.config/screenshot.sh" />
+      <action name="Execute" command="sh $HOME/.config/screenshot.sh" />
     </keybind>
     <keybind key="W-l">
       <action name="Execute" command="gtklock" />
