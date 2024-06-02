@@ -28,6 +28,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Fetching tool** - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Shell** - [fish](https://fishshell.com/)
 - **Pokemon sprites** - [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
+- **Display management** - [kanshi](https://git.sr.ht/~emersion/kanshi)
 
 # Themes
 - **Openbox Theme** - [Vent (icons only)](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
@@ -46,3 +47,4 @@ My personal gruvbox-themed Arch Linux + labwc rice
 # Notes
 - nwg-drawer is mapped to ``Win-Space``
 - Desktop users may want to remove the battery module from the waybar config
+- you may want to configure kanshi for your own display config, unless you have a hidpi laptop display
