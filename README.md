@@ -27,6 +27,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Bluetooth manager** - [blueman](https://github.com/blueman-project/blueman)
 - **Fetching tool** - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
 - **Shell** - [fish](https://fishshell.com/)
+- **Pokemon sprites** - [pokemon-colorscripts](https://gitlab.com/phoneybadger/pokemon-colorscripts)
 
 # Themes
 - **Openbox Theme** - [Vent (icons only)](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
