@@ -25,6 +25,8 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Spotify client** - AUR client with [Spicetify](https://spicetify.app/) (theme included [here](/.config/spicetify/Themes/main))
 - **Audio mixer** - [pavucontrol](https://github.com/pulseaudio/pavucontrol)
 - **Bluetooth manager** - [blueman](https://github.com/blueman-project/blueman)
+- **Fetching tool** - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- **Shell** - [fish](https://fishshell.com/)
 
 # Themes
 - **Openbox Theme** - [Vent (icons only)](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
