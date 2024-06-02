@@ -27,7 +27,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Bluetooth manager** - [blueman](https://github.com/blueman-project/blueman)
 
 # Themes
-- **Openbox Theme** - [Vent (icons only](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
+- **Openbox Theme** - [Vent (icons only)](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
 - **GTK theme** - [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
 - **Kvantum theme** - [gruvbox-material-brown (slightly modified)](https://github.com/sachnr/gruvbox-kvantum-themes/tree/main)
 - **Icons** - [Gruvbox-Plus-Dark](https://www.pling.com/p/1961046/)
