@@ -42,3 +42,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 
 # Wallpaper
 - by [@kitoyaki on X](https://x.com/kitoyaki) (follow him for monthly wallpaper threads!)
+
+# Notes
+- nwg-drawer is mapped to ``Win-Space``
+- Desktop users may want to remove the battery module from the waybar config
