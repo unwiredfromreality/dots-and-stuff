@@ -1,4 +1,11 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=IosevkaTermSlab+Nerd+Font&size=40&pause=1000&color=D5C4A1&center=true&random=false&width=435&height=75&lines=my+labwc+rice+files)](https://git.io/typing-svg)
+<div align='center'>
+  
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=IosevkaTermSlab+Nerd+Font&size=40&pause=1000&color=D5C4A1&center=true&vCenter=true&random=false&width=435&height=75&lines=my+labwc+rice+files)](https://git.io/typing-svg)
+
+My personal gruvbox-themed Arch Linux + labwc rice
+</div>
+
+![](/swappy-20240602-155911.png)
 
 List of Applications
 - **WM / Compositor** - [labwc](https://labwc.github.io)
@@ -15,5 +22,17 @@ List of Applications
 Other Applications
 - **MATE applications** (*caja*, *atril*, *engrampa*, *mate-system-monitor*, *mate-polkit*)
 - **Browser** - Firefox ([css config here](chrome))
+- **Spotify client** - AUR client with [Spicetify](https://spicetify.app/) (theme included [here](/.config/spicetify/Themes/main))
+- **Audio mixer** - [pavucontrol](https://github.com/pulseaudio/pavucontrol)
+- **Bluetooth manager** - [blueman](https://github.com/blueman-project/blueman)
+
+Themes:
+- Openbox Theme: [Vent (icons only](https://github.com/addy-dclxvi/openbox-theme-collections/tree/master/Vent/openbox-3)
+- GTK theme: [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
+- Kvantum theme: [gruvbox-material-brown (slightly modified)](https://github.com/sachnr/gruvbox-kvantum-themes/tree/main)
+
+Fonts: 
+- [IosevkaTermSlab Nerd Font](https://archlinux.org/packages/extra/any/ttf-iosevkatermslab-nerd/)
+- [IosevkaAile](https://archlinux.org/packages/extra/any/ttc-iosevka-aile/) (for gtk and qt apps)
 
 Wallpaper: by [@kitoyaki on X](https://x.com/kitoyaki) (follow him for monthly wallpaper threads!)
