@@ -1,0 +1,64 @@
+@-moz-document url-prefix("about:") {
+html, body {
+background-color: #282828 !important;
+--in-content-page-color: #d5c4a1 !important;
+--in-content-primary-button-background: #a89984 !important;
+--in-content-primary-button-background-hover: #827769 !important;
+--newtab-primary-action-background: #a89984 !important;
+--newtab-text-primary-color: #d5c4a1 !important;
+--newtab-primary-action-background-pocket: #a89984 !important;
+--newtab-background-color-secondary: #433e3c !important;
+--color-accent-primary: #a89984 !important;
+--color-accent-primary-hover: #827769 !important;
+--button-background-color-hover: #827769 !important;
+--background-color-box: #282828 !important;
+--background-color-canvas: #282828 !important;
+background: url("/home/riley/.config/FirefoxHomeLogos/Japanese_Wave_Pattern.svg") !important;   
+font-family: Iosevka Aile !important;
+}
+}
+
+@-moz-document url("about:newtab"), url-prefix(about:home) {  
+.click-target-container *, .top-sites-list * {
+  color: #d5c4a1 !important;
+   font-family: IosevkaTermSlab Nerd Font !important;
+}
+  .tile {
+    background-color: transparent !important;
+    box-shadow: none !important; 
+ }
+
+.logo {
+height: 0px !important;
+width: 0px !important;
+}
+
+.wordmark {
+width: 0px !important;
+height: 0px !important;
+}
+
+.icon-wrapper.letter-fallback {
+background-color: #a89984 !important;
+font-family: Iosevka Aile !important;
+}
+
+  .search-handoff-button {
+    background-color: #282828 !important;
+    box-shadow: none !important;
+    border: 2px solid #433e3c !important;
+ }
+ 
+.fake-textbox {
+   font-family: IosevkaTermSlab Nerd Font !important;
+   color: #d5c4a1 !important;
+}
+ 
+.top-site-icon {
+background-color: transparent !important;
+}
+
+  .top-site-outer:hover {
+    background-color: rgba(168, 153, 132, 0.3) !important;
+  }
+}

@@ -1,0 +1,120 @@
+
+{
+  "layer": "bottom",
+  "position": "top", 
+  "output": "eDP-1",
+  "height": 28,
+  "reload_style_on_change": true,
+
+  "modules-left": [ "custom/rofi", "wlr/taskbar" ],
+  "modules-center": [ "" ],
+  "modules-right": [ "custom/spotify", "memory", "cpu", "bluetooth", "network", "pulseaudio", "battery", "clock#time", "tray" ],
+ 
+ "custom/rofi": {
+	"format": "<span foreground='#a89984'>Apps</span>{}",
+	"on-click": "nwg-drawer",
+ },
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "all-outputs": true,
+    "icon-size": 16,
+    "icon-theme": "Gruvbox-Plus-Dark",
+    "on-click": "minimize-raise",
+  },
+  "custom/spotify": {
+    "exec": "$HOME/.config/waybar/scripts/spotify.py --player spotify",
+	"format": "<span size='10000' foreground='#a89984'>󰐊 </span>{}",
+    "return-type": "json",
+    "on-click": "playerctl -p spotify play-pause",
+    "on-scroll-up": "playerctl -p spotify next",
+    "on-scroll-down": "playerctl -p spotify previous",
+    "smooth-scrolling-threshold": 5,
+    "tooltip": false,
+  },
+  "memory": {
+    "interval": 2,
+    "format": "<span foreground='#a89984'>󰍛  </span>{used:0.1f}GiB"
+  },
+  "cpu": {
+    "interval": 2,
+    "format": "<span foreground='#a89984'>󰻠  </span>{usage}%"
+  },
+"bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"format": "<span foreground='#a89984'>󰂯</span>",
+	"format-disabled": "󰂲", 
+	"format-connected": "<span foreground='#a89984'>󰂱  </span>{device_alias}",
+        "format-connected-battery": "<span foreground='#a89984'>󰂱  </span>{device_alias} ({device_battery_percentage}%)",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "blueman-manager",
+},
+  "network": {
+	"interval": 1,
+	"format-wifi": "<span foreground='#a89984'>{icon} </span>{essid}",
+        "format-disconnected": "<span foreground='#a89984'>󰤭 </span>",
+	"format-ethernet": "<span foreground='#a89984'>󰛳  </span>Connected",
+	"on-click": "kitty --class nmtui -T 'Network Settings' nmtui",
+	"format-icons": [
+		"󰤯 ",
+		"󰤟 ",
+		"󰤢 ",
+		"󰤥 ", 
+		"󰤨 "
+	]
+  },
+  "pulseaudio": {
+    "format": "<span foreground='#a89984'>{icon}  </span>{volume}%",
+    "ignored-sinks": ["Easy Effects Sink"],
+    "on-click": "pavucontrol",
+    "format-icons": {
+           "default": ["󰕿", "󰖀", "󰕾"]
+    },
+  },
+
+  "clock#time": {
+    "interval": 1,
+    "format": "{:%I:%M %p}",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+                    "mode"          : "month",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<span color='#a89984'><b>{}</b></span>",
+                              "days":       "{}",
+                              "weeks":      "<span color='#a89984'>W{}</span>",
+                              "weekdays":   "<span color='#a89984'>{}</span>",
+                              "today":      "<u>{}</u>"
+                              }
+                    },
+  },
+
+  "battery": {
+    "format": "<span foreground='#a89984'>{icon} </span>{capacity}%",
+    "format-icons": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼", 
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+        ]
+  },
+
+  "tray": {
+    	"icon-size": 14,
+    "spacing": 10,
+	"show-passive-items": true
+  },
+
+}
+
+// vim:ft=jsonc
