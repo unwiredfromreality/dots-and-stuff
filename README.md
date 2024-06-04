@@ -42,6 +42,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 # Fonts
 - [IosevkaTermSlab Nerd Font](https://archlinux.org/packages/extra/any/ttf-iosevkatermslab-nerd/)
 - [IosevkaAile](https://archlinux.org/packages/extra/any/ttc-iosevka-aile/) (for gtk and qt apps)
+- [New York](https://en.wikipedia.org/wiki/New_York_(2019_typeface)) (for lockscreen)
 
 # Wallpaper
 - by [@kitoyaki on X](https://x.com/kitoyaki) (follow him for monthly wallpaper threads!)
