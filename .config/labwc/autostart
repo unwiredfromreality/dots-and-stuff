@@ -3,4 +3,4 @@ kanshi >/dev/null 2>&1 &
 waybar >/dev/null 2>&1 &
 kdeconnect-indicator >/dev/null 2>&1 &
 /usr/lib/mate-polkit/polkit-mate-authentication-agent-1 >/dev/null 2>&1 &
-swayidle -w before-sleep 'gtklock' >/dev/null 2>&1 &
+swayidle -w before-sleep 'sh $HOME/.config/LSWallpaper.sh' >/dev/null 2>&1 &

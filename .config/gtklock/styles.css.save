@@ -1,0 +1,39 @@
+* {
+box-shadow: none;
+}
+
+window {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#playerctl-revealer > box {
+border: 2px solid #433e3c;
+background-color: #32302f;
+border-radius: 8px;
+padding: 3em;
+}
+
+#playerctl-revealer > box {
+padding: 1.5em;
+margin-top: 2em;
+}
+
+#clock-label  {
+font-family: IosevkaTermSlab Nerd Font;
+padding: 5em 0 8RoccoP13
+RoccoP13
+RoccoP13
+em 0;
+font-size: 72px;
+}
+
+/* hide "Password:" label */
+#input-label {
+  font-size: 0;
+}
+
+#input-field {
+background: #433e3c;
+}
