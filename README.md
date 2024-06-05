@@ -48,6 +48,12 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - Desktop users may want to remove the battery module from the waybar config
 - you may want to configure kanshi for your own display config, unless you have a hidpi laptop display
 
+# Getting Started
+- I have provided a simple install script, recommended for a clean Arch installation:
+```
+cd ~/
+wget https://raw.githubusercontent.com/unwiredfromreality/dots-and-stuff/master/install.sh -O ~/install.sh && sh install.sh
+```
 # Screenshots
 ![](/swappy-20240605-235904.png)
 ![](/swappy-20240606-000010.png)
