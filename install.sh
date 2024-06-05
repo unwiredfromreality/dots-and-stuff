@@ -6,7 +6,7 @@ git clone https://aur.archlinux.org/yay-bin.git
 cd yay-bin/
 makepkg -si
 cd ..
-yay -S --noconfirm labwc-git nwg-drawer-bin gtklock pokemon-colorscripts-git resources
+yay -S --noconfirm labwc-git nwg-drawer-bin waypaper-git gtklock pokemon-colorscripts-git resources
 cp -r .config ~/
 cp -r .local ~/
 sudo systemctl enable ly.service
