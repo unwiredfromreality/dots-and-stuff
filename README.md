@@ -5,8 +5,6 @@
 My personal gruvbox-themed Arch Linux + labwc rice
 </div>
 
-![](/swappy-20240602-155911.png)
-
 # List of Applications
 - **WM / Compositor** - [labwc](https://labwc.github.io)
 - **Lockscreen** - [gtklock](https://github.com/jovanlanik/gtklock) ([script for syncing with waypaper](/.config/LSWallpaper.sh)) ([ios-style config here](/.config/gtklock))
@@ -44,10 +42,15 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - [IosevkaAile](https://archlinux.org/packages/extra/any/ttc-iosevka-aile/) (for gtk and qt apps)
 - [New York](https://en.wikipedia.org/wiki/New_York_(2019_typeface)) (for lockscreen)
 
-# Wallpaper
-- by [@kitoyaki on X](https://x.com/kitoyaki) (follow him for monthly wallpaper threads!)
-
 # Notes
 - nwg-drawer is mapped to ``Win-Space``
 - Desktop users may want to remove the battery module from the waybar config
 - you may want to configure kanshi for your own display config, unless you have a hidpi laptop display
+
+# Screenshots
+![](/swappy-20240605-235904.png)
+![](/swappy-20240606-000010.png)
+![](/swappy-20240606-000033.png)
+![](/swappy-20240606-000045.png)
+
+[wallpaper](https://wallhaven.cc/w/l87rxp)
