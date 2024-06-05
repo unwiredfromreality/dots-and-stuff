@@ -9,6 +9,8 @@ cd ..
 yay -S --noconfirm labwc-git nwg-drawer-bin waypaper-git gtklock pokemon-colorscripts-git resources
 cp -r .config ~/
 cp -r .local ~/
+cp -r .icons ~/
+cp -r .themes ~/
 sudo systemctl enable ly.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl enable bluetooth.service
