@@ -7,7 +7,7 @@
   "reload_style_on_change": true,
 
   "modules-left": [ "custom/rofi", "wlr/taskbar" ],
-  "modules-center": [ "" ],
+  "modules-center": [  ],
   "modules-right": [ "custom/spotify", "memory", "cpu", "bluetooth", "network", "pulseaudio", "battery", "clock#time", "tray" ],
  
  "custom/rofi": {

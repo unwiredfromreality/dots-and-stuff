@@ -38,6 +38,7 @@ padding: 0.5em;
 margin: 5px;
 border: 2px solid;
 border-color: var(border);
+border-radius: 8px;
 }
 
 element normal.normal {

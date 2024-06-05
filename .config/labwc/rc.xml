@@ -22,7 +22,7 @@
   <!-- <font><theme> can be defined without an attribute to set all places -->
   <theme>
     <name>XBM</name>
-    <cornerRadius>0</cornerRadius>
+    <cornerRadius>8</cornerRadius>
     <keepBorder>yes</keepBorder>
     <dropShadows>no</dropShadows>
     <font place="ActiveWindow">
@@ -270,6 +270,12 @@
     </keybind>
     <keybind key="W-Space">
       <action name="Execute" command="nwg-drawer" />
+    </keybind>
+    <keybind key="C-S-Escape">
+      <action name="Execute" command="resources" />
+    </keybind>
+    <keybind key="W-F">
+      <action name="Execute" command="caja" />
     </keybind>
   <!-- SnapToRegion via W-Numpad -->
   <!--

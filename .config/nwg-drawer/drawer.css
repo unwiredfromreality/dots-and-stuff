@@ -11,7 +11,7 @@ entry {
 button {
     background: transparent;
     border: none;
-    border-radius: 0px;
+    border-radius: 8px;
     box-shadow: none;
     font-family: IosevkaTermSlab Nerd Font;
 }

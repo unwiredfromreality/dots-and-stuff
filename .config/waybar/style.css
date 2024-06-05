@@ -8,11 +8,12 @@
 tooltip {
 	background: #282828;
 	border: 2px solid #433e3c;
-        border-radius: 0px;
+        border-radius: 8px;
 }
 
 tooltip label {
   color: #d5c4a1;
+  padding: 0.3em;
 }
 
 window#waybar {

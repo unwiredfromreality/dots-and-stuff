@@ -11,7 +11,7 @@ width								= 400
 height								= 400
 origin								= top-right
 offset								= 25x25
-corner_radius						= 0
+corner_radius						= 8
 
 # icons
 min_icon_size						= 24

@@ -104,15 +104,16 @@ decoration,
 window,
 window.background
 {
-    border-radius: 0;
+    border-radius: 8px 8px 0 0;
 }
 
-/* Remove csd shadows */
 
 window {
 border: 2px solid #433e3c;
 box-shadow: none;
+outline: none;
 }
 window.maximized, window.fullscreen {
 border: none;
+border-radius: 0;
 }
