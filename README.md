@@ -53,4 +53,4 @@ My personal gruvbox-themed Arch Linux + labwc rice
 ![](/swappy-20240606-000033.png)
 ![](/swappy-20240606-000045.png)
 
-[wallpaper](https://wallhaven.cc/w/l87rxp)
+[wallpaper](https://wallhaven.cc/w/l87rxp) [higher res version](https://i.ibb.co/8B1tkBH/wallhaven-l87rxp.jpg)
