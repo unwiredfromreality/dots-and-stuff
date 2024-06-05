@@ -40,7 +40,7 @@ icons[cancel]="\Uf0156"
 icons[cancel2]="\Uf0156"
 
 declare -A actions
-actions[lockscreen]="gtklock"
+actions[lockscreen]="sh $HOME/.config/LSWallpaper.sh"
 #actions[switchuser]="???"
 actions[logout]="labwc -e"
 actions[suspend]="systemctl suspend"
