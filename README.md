@@ -20,7 +20,8 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Terminal** - [kitty](https://github.com/kovidgoyal/kitty)
 
 # Other Applications
-- **MATE applications** (*caja*, *atril*, *engrampa*, *mate-system-monitor*, *mate-polkit*)
+- **MATE applications** (*caja*, *atril*, *eom*, *engrampa*, *mate-polkit*)
+- **Task manager** - [resources](https://github.com/nokyan/resources)
 - **Browser** - Firefox ([css config here](chrome))
 - **Spotify client** - AUR client with [Spicetify](https://spicetify.app/) (theme included [here](/.config/spicetify/Themes/main))
 - **Audio mixer** - [pavucontrol](https://github.com/pulseaudio/pavucontrol)
