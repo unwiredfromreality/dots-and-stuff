@@ -11,6 +11,7 @@ cp -r .config ~/
 cp -r .local ~/
 cp -r .icons ~/
 cp -r .themes ~/
+sudo ln -s /usr/bin/rofi /usr/bin/dmenu
 sudo systemctl enable ly.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl enable bluetooth.service
