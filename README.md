@@ -46,7 +46,8 @@ My personal gruvbox-themed Arch Linux + labwc rice
 # Notes
 - nwg-drawer is mapped to ``Win-Space``
 - Desktop users may want to remove the battery module from the waybar config
-- you may want to configure kanshi for your own display config, unless you have a hidpi laptop display
+- you may want to configure kanshi for your own display config
+- you may also have to adjust padding of lockscreen login prompt depending on your screen resolution
 
 # Getting Started
 - I have provided a simple install script, recommended for a clean Arch installation:
@@ -54,6 +55,8 @@ My personal gruvbox-themed Arch Linux + labwc rice
 cd ~/
 wget https://raw.githubusercontent.com/unwiredfromreality/dots-and-stuff/master/install.sh -O ~/install.sh && sh install.sh
 ```
+
+Note that firefox css theme will have to be applied manually. Spotify and spicetify may be installed manually; theme will be applied upon running `spicetify apply` for first time. 
 # Screenshots
 ![](/swappy-20240605-235904.png)
 ![](/swappy-20240606-000010.png)
