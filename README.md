@@ -46,7 +46,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 # Keybinds
 - **App launcher** - `Win-Space`
 - **File manager** - `Win-F`
-- **Open terminal** `Win-Enter
+- **Open terminal** `Win-Enter`
 - **Task manager** - `Ctrl-Shift-Esc`
 - **Screenshot** - `Win-Shift-S` or `PrtSc`
 - **Lock screen** - `Win-L`
