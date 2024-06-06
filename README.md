@@ -43,8 +43,15 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - [IosevkaAile](https://archlinux.org/packages/extra/any/ttc-iosevka-aile/) (for gtk and qt apps)
 - [New York](https://en.wikipedia.org/wiki/New_York_(2019_typeface)) (for lockscreen)
 
+# Keybinds
+- **App launcher** - `Win-Space`
+- **File manager** - `Win-F`
+- **Open terminal** `Win-Enter
+- **Task manager** - `Ctrl-Shift-Esc`
+- **Screenshot** - `Win-Shift-S` or `PrtSc`
+- **Lock screen** - `Win-L`
+
 # Notes
-- nwg-drawer is mapped to ``Win-Space``
 - Desktop users may want to remove the battery module from the waybar config
 - you may want to configure kanshi for your own display config
 - you may also have to adjust padding of lockscreen login prompt depending on your screen resolution
