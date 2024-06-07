@@ -104,12 +104,15 @@ decoration,
 window,
 window.background
 {
-    border-radius: 8px 8px 0 0;
+    border-radius: 0;
 }
 
+window.csd {
+border: 2px solid #433e3c;
+border-radius: 8px 8px 0 0;
+}
 
 window {
-border: 2px solid #433e3c;
 box-shadow: none;
 outline: none;
 }
