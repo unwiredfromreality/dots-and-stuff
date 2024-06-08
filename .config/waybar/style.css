@@ -21,38 +21,41 @@ window#waybar {
   color: #d5c4a1;
 }
 
-#taskbar,
 #custom-rofi {
-  background: transparent;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-radius: 0px;
+  color: #a89984;
+  padding: 0 0.5em;
+  background: rgba(40, 40, 40, 0.8);
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  border-radius: 4px;
+  border: 1px solid #433e3c; 
+  font-style: italic;
 }
 
-#custom-rofi {
-  padding: 0 0.8em;
-}
-
-#taskbar {
-  padding: 0 0em;
+#custom-rofi:hover {
+  background: rgba(168, 153, 132, 0.5);
+  border-color: #a89984;
 }
 
 #taskbar button.active {
   background: rgba(168, 153, 132, 0.3);
-  border-radius: 0px;
+  border-radius: 4px;
+  padding: 0 4px;
+  border: 1px solid #a89984;
 }
 
 #taskbar button {
   color: #d5c4a1;
   background: transparent;
-  border-radius: 0px;
+  border-radius: 4px;
+  margin: 4px;
+  padding: 0 5px;
 }
 
 #taskbar button:hover {
-  background: rgba(168, 153, 132, 0.3);
-  border-radius: 0px;
+  background: rgba(168, 153, 132, 0.5);
+  border-radius: 4px;
 }
 
 #disk:hover,
@@ -64,12 +67,14 @@ window#waybar {
 #cpu:hover,
 #network:hover,
 #custom-spotify:hover,
+#custom-wlsunset:hover,
+#custom-power:hover,
+#custom-notifikasi:hover,
+#custom-tray-icon:hover,
 #tray > .passive:hover,
 #tray > .active:hover,
-#tray > .needs-attention:hover,
-#custom-rofi:hover {
+#tray > .needs-attention:hover {
   background: rgba(168, 153, 132, 0.3);
-  border-radius: 0px;
 }
 
 #disk,
@@ -82,13 +87,34 @@ window#waybar {
 #network,
 #workspaces,
 #custom-spotify,
+#custom-power,
+#custom-notifikasi,
+#custom-wlsunset,
+#custom-tray-icon,
 #tray {
   color: #d5c4a1;
   background: transparent;
   padding: 0 0.8em;
-  margin-right: 0px;
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  border-radius: 0px;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+#custom-tray-icon {
+padding: 0px 8px;
+margin-right: 4px;
+}
+
+#custom-power {
+padding: 0 12px 0 8px;
+}
+
+#custom-wlsunset {
+padding: 0 10px 0 8px;
+}
+
+#network.ethernet {
+padding: 0 1.2em 0 0.8em;
 }

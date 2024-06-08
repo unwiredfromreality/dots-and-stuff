@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Source the sunvar.sh script to get the variable
+source ~/.config/waybar/scripts/sunvar.sh
+
+if pgrep -x "wlsunset" > /dev/null
+then
+    pkill wlsunset > /dev/null 2>&1
+else
+    wlsunset -l $LAT -L $LONG > /dev/null 2>&1 &
+fi

@@ -2,7 +2,7 @@
 layer								= top
 font								= "IosevkaTerm Slab Nerd Font 10"
 follow								= none
-notification_limit					= 8
+notification_limit					= 16
 
 # size, position and appearance
 # The window position was chosen for the gaps settings of the window manager and for a 1080p monitor
