@@ -25,7 +25,7 @@ gsettings set org.gnome.desktop.interface icon-theme Gruvbox-Plus-Dark
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 xdg-user-dirs-update
 xdg-mime default caja.desktop inode/directory
-pacman -Qqd | sudo pacman -Rsu -
+pacman -Qqd | sudo pacman --noconfirm -Rsu -
 wget https://i.ibb.co/8B1tkBH/wallhaven-l87rxp.jpg -O ~/Pictures/wallpaper.jpg
 echo "Rebooting system in 5 seconds..."
 echo "After rebooting, you may now login to labwc session."
