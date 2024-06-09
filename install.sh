@@ -16,8 +16,8 @@ sudo systemctl enable ly.service
 sudo systemctl enable NetworkManager.service
 sudo systemctl enable bluetooth.service
 systemctl enable --user wireplumber.service
-gsettings set org.gnome.desktop.interface cursor-theme Capitaine-Cursors-Gruvbox-White
-gsettings set org.gnome.desktop.interface cursor-size 40 
+gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-GM
+gsettings set org.gnome.desktop.interface cursor-size 32
 gsettings set org.gnome.desktop.interface font-name 'Iosevka Aile'
 gsettings set org.gnome.desktop.interface monospace-font-name 'IosevkaTermSlab Nerd Font'
 gsettings set org.gnome.desktop.interface gtk-theme Gruvbox-Material-Dark
