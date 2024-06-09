@@ -52,8 +52,9 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Lock screen** - `Win-L`
 
 # Notes
-- you may want to configure kanshi for your own display config
-- you may also have to adjust padding of lockscreen login prompt depending on your screen resolution 
+- You may want to configure kanshi for your own display config.
+- You may also have to adjust padding of lockscreen login prompt depending on your screen resolution. For ≤1080p users, adjusting the padding is a must as it will overlap with the media player or in some cases, prevent gtklock from starting due to the login prompt being out of bounds. 
+- **These dotfiles are constantly changing and improving. If you really want to keep updated with my changes, it'd probably be wiser to just symlink the subdirectories to your ~/.config folder and just git pull periodically. (needs testing on my end but should work)**
 
 # Getting Started
 - I have provided a simple install script, recommended for a clean Arch installation:
