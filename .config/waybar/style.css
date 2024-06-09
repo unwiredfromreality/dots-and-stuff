@@ -77,6 +77,12 @@ window#waybar {
   background: rgba(168, 153, 132, 0.3);
 }
 
+#tray > .passive:hover,
+#tray > .active:hover,
+#tray > .needs-attention:hover {
+border-radius: 4px;
+}
+
 #disk,
 #clock,
 #battery,
