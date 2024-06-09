@@ -62,7 +62,13 @@ cd ~/
 wget https://raw.githubusercontent.com/unwiredfromreality/dots-and-stuff/master/install.sh -O ~/install.sh && sh install.sh
 ```
 
-Note that firefox css theme will have to be applied manually. Spotify and spicetify may be installed manually; theme will be applied upon running `spicetify apply` for first time. 
+Note that firefox css theme will have to be applied manually. Open firefox, enable `toolkit.legacyUserProfileCustomizations.stylesheets` in `about:config`, then copy over the chrome folder:
+```
+cd ~/dots-and-stuff
+cp -r chrome ~/.mozilla/firefox/*default-release/
+```
+
+Spotify and spicetify may be installed manually; theme will be applied upon running `spicetify apply` for first time. 
 # Screenshots
 ![](/swappy-20240605-235904.png)
 ![](/swappy-20240609-231511.png)
