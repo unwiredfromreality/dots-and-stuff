@@ -1,4 +1,7 @@
+# Source the fonts.sh script to get the fonts
+source ~/.config/gtklock/fonts.sh
+
 date=$(date +"%A, %B %-d")
 echo '<b>'"$date"'</b>'
 time=$(date +"%-I:%M")
-echo '<span size="112pt" face="New York" weight="700">'"$time"'</span>'
+echo '<span size="112pt" face="'$LS_FONT_FACE'" weight="'$LS_FONT_WEIGHT'">'"$time"'</span>'

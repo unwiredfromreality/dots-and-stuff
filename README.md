@@ -10,6 +10,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Lockscreen** - [gtklock](https://github.com/jovanlanik/gtklock) ([script for syncing with waypaper](/.config/LSWallpaper.sh)) ([ios-style config here](/.config/gtklock))
   - do note that the script requires ``fish`` as the command behaves erratically with bash
   - [apple-fonts](https://aur.archlinux.org/packages/apple-fonts) required for ios style theme, provided [here](/.local/share/fonts)
+  - you can change the font and font weight by editing `~/.config/gtklock/fonts.sh`
 - **Idle Control** - [swayidle](https://github.com/swaywm/swayidle)
 - **Bar** - [waybar](https://github.com/Alexays/Waybar)
 - **Wallpapers** - [swaybg](https://github.com/swaywm/swaybg) with [waypaper](https://github.com/anufrievroman/waypaper) for GUI frontend
