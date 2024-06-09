@@ -1,5 +1,5 @@
 # Source the fonts.sh script to get the fonts
-source ~/.config/gtklock/fonts.sh
+source ~/.config/gtklock/clock-settings
 
 date=$(date +"%A, %B %-d")
 echo '<b>'"$date"'</b>'
