@@ -52,9 +52,8 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **Lock screen** - `Win-L`
 
 # Notes
-- Desktop users may want to remove the battery module from the waybar config
 - you may want to configure kanshi for your own display config
-- you may also have to adjust padding of lockscreen login prompt depending on your screen resolution
+- you may also have to adjust padding of lockscreen login prompt depending on your screen resolution 
 
 # Getting Started
 - I have provided a simple install script, recommended for a clean Arch installation:
