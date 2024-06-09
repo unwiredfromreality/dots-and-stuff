@@ -45,7 +45,7 @@ My personal gruvbox-themed Arch Linux + labwc rice
 - **GTK theme** - [gruvbox-material-gtk](https://github.com/TheGreatMcPain/gruvbox-material-gtk)
 - **Kvantum theme** - [gruvbox-material-brown (slightly modified)](https://github.com/sachnr/gruvbox-kvantum-themes/tree/main)
 - **Icons** - [Gruvbox-Plus-Dark](https://www.pling.com/p/1961046/)
-- **Cursors** - [Capitaine Cursors (Gruvbox)](https://www.pling.com/p/1818760/)
+- **Cursors** - [Bibata Modern Cursors (gruvbox themed)](https://github.com/ful1e5/Bibata_Cursor)
 
 # Fonts
 - [IosevkaTermSlab Nerd Font](https://archlinux.org/packages/extra/any/ttf-iosevkatermslab-nerd/)
