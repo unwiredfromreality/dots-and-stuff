@@ -3,8 +3,8 @@ border.width: 2
 padding.height: 4
 
 # window border
-window.active.border.color: #433e3c
-window.inactive.border.color: #433e3c
+window.active.border.color: #45403d
+window.inactive.border.color: #45403d
 
 # ToggleKeybinds status indicator
 window.active.indicator.toggled-keybind.color: #ff0000
@@ -14,17 +14,17 @@ window.active.title.bg.color: #282828
 window.inactive.title.bg.color: #282828
 
 # window titlebar text
-window.active.label.text.color: #d5c4a1cc
-window.inactive.label.text.color: #d5c4a150
+window.active.label.text.color: #d4be98cc
+window.inactive.label.text.color: #d4be9850
 window.label.text.justify: left
 
 # window buttons
-window.active.button.unpressed.image.color: #d5c4a150
-window.inactive.button.unpressed.image.color: #d5c4a150
-window.active.button.close.unpressed.image.color: #d5c4a1cc
-window.inactive.button.close.unpressed.image.color: #d5c4a1cc
-window.active.button.menu.unpressed.image.color: #d5c4a150
-window.inactive.button.menu.unpressed.image.color: #d5c4a150
+window.active.button.unpressed.image.color: #d4be9850
+window.inactive.button.unpressed.image.color: #d4be9850
+window.active.button.close.unpressed.image.color: #d4be98cc
+window.inactive.button.close.unpressed.image.color: #d4be98cc
+window.active.button.menu.unpressed.image.color: #d4be9850
+window.inactive.button.menu.unpressed.image.color: #d4be9850
 
 # menu
 menu.overlap.x: 0
@@ -32,9 +32,9 @@ menu.overlap.y: 0
 menu.width.min: 20
 menu.width.max: 200
 menu.items.bg.color: #282828
-menu.items.text.color: #d5c4a1
+menu.items.text.color: #d4be98
 menu.items.active.bg.color: #4e4a43
-menu.items.active.text.color: #d5c4a1
+menu.items.active.text.color: #d4be98
 menu.items.padding.x: 7
 menu.items.padding.y: 4
 menu.separator.width: 1
@@ -44,9 +44,9 @@ menu.separator.color: #888888
 
 # on screen display (window-cycle dialog)
 osd.bg.color: #282828
-osd.border.color: #433e3c
+osd.border.color: #45403d
 osd.border.width: 2
-osd.label.text.color: #d5c4a1
+osd.label.text.color: #d4be98
 
 # width can be set as percent (of screen width)
 # example 50% or 75% instead of 600, max 100%

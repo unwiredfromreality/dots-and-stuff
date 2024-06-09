@@ -47,7 +47,7 @@
          cy="0"
          r="147.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle1" />
       <circle
@@ -55,7 +55,7 @@
          cy="0"
          r="127.5"
          stroke-width="5"
-         stroke="433e3c"
+         stroke="45403d"
          fill="#282828"
          id="circle2" />
       <circle
@@ -63,7 +63,7 @@
          cy="0"
          r="107.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle3" />
       <circle
@@ -71,7 +71,7 @@
          cy="0"
          r="87.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle4" />
       <circle
@@ -79,7 +79,7 @@
          cy="0"
          r="67.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle5" />
       <circle
@@ -87,7 +87,7 @@
          cy="0"
          r="47.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle6" />
       <circle
@@ -95,7 +95,7 @@
          cy="0"
          r="27.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle7" />
       <circle
@@ -103,7 +103,7 @@
          cy="75"
          r="147.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle8" />
       <circle
@@ -111,7 +111,7 @@
          cy="75"
          r="127.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle9" />
       <circle
@@ -119,7 +119,7 @@
          cy="75"
          r="107.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle10" />
       <circle
@@ -127,7 +127,7 @@
          cy="75"
          r="87.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle11" />
       <circle
@@ -135,7 +135,7 @@
          cy="75"
          r="67.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle12" />
       <circle
@@ -143,7 +143,7 @@
          cy="75"
          r="47.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle13" />
       <circle
@@ -151,7 +151,7 @@
          cy="75"
          r="27.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle14" />
       <circle
@@ -159,7 +159,7 @@
          cy="75"
          r="147.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle15" />
       <circle
@@ -167,7 +167,7 @@
          cy="75"
          r="127.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle16" />
       <circle
@@ -175,7 +175,7 @@
          cy="75"
          r="107.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle17" />
       <circle
@@ -183,7 +183,7 @@
          cy="75"
          r="87.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle18" />
       <circle
@@ -191,7 +191,7 @@
          cy="75"
          r="67.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle19" />
       <circle
@@ -199,7 +199,7 @@
          cy="75"
          r="47.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle20" />
       <circle
@@ -207,7 +207,7 @@
          cy="75"
          r="27.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle21" />
       <circle
@@ -215,7 +215,7 @@
          cy="150"
          r="147.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle22" />
       <circle
@@ -223,7 +223,7 @@
          cy="150"
          r="127.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle23" />
       <circle
@@ -231,7 +231,7 @@
          cy="150"
          r="107.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle24" />
       <circle
@@ -239,7 +239,7 @@
          cy="150"
          r="87.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle25" />
       <circle
@@ -247,7 +247,7 @@
          cy="150"
          r="67.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle26" />
       <circle
@@ -255,7 +255,7 @@
          cy="150"
          r="47.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle27" />
       <circle
@@ -263,7 +263,7 @@
          cy="150"
          r="27.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle28" />
       <circle
@@ -271,7 +271,7 @@
          cy="225"
          r="147.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle29" />
       <circle
@@ -279,7 +279,7 @@
          cy="225"
          r="127.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle30" />
       <circle
@@ -287,7 +287,7 @@
          cy="225"
          r="107.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle31" />
       <circle
@@ -295,7 +295,7 @@
          cy="225"
          r="87.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle32" />
       <circle
@@ -303,7 +303,7 @@
          cy="225"
          r="67.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle33" />
       <circle
@@ -311,7 +311,7 @@
          cy="225"
          r="47.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle34" />
       <circle
@@ -319,7 +319,7 @@
          cy="225"
          r="27.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle35" />
       <circle
@@ -327,7 +327,7 @@
          cy="225"
          r="147.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle36" />
       <circle
@@ -335,7 +335,7 @@
          cy="225"
          r="127.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle37" />
       <circle
@@ -343,7 +343,7 @@
          cy="225"
          r="107.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle38" />
       <circle
@@ -351,7 +351,7 @@
          cy="225"
          r="87.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle39" />
       <circle
@@ -359,7 +359,7 @@
          cy="225"
          r="67.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle40" />
       <circle
@@ -367,7 +367,7 @@
          cy="225"
          r="47.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle41" />
       <circle
@@ -375,7 +375,7 @@
          cy="225"
          r="27.5"
          stroke-width="5"
-         stroke="#433e3c"
+         stroke="#45403d"
          fill="#282828"
          id="circle42" />
     </pattern>

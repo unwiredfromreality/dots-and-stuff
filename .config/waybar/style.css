@@ -7,18 +7,18 @@
 
 tooltip {
 	background: #282828;
-	border: 2px solid #433e3c;
+	border: 2px solid #45403d;
         border-radius: 8px;
 }
 
 tooltip label {
-  color: #d5c4a1;
+  color: #d4be98;
   padding: 0.3em;
 }
 
 window#waybar {
   background: rgba(40, 40, 40, 0.8);
-  color: #d5c4a1;
+  color: #d4be98;
 }
 
 #custom-rofi {
@@ -29,7 +29,7 @@ window#waybar {
   margin-bottom: 4px;
   margin-left: 4px;
   border-radius: 4px;
-  border: 1px solid #433e3c; 
+  border: 1px solid #45403d; 
   font-style: italic;
 }
 
@@ -46,7 +46,7 @@ window#waybar {
 }
 
 #taskbar button {
-  color: #d5c4a1;
+  color: #d4be98;
   background: transparent;
   border-radius: 4px;
   margin-left: 4px;
@@ -101,7 +101,7 @@ border-radius: 4px;
 #custom-wlsunset,
 #custom-tray-icon,
 #tray {
-  color: #d5c4a1;
+  color: #d4be98;
   background: transparent;
   padding: 0 0.8em;
   margin-left: 2px;

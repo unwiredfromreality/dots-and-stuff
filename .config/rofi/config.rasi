@@ -8,11 +8,11 @@ configuration {
 
 * {
 
-    foreground:                  #d5c4a1;
+    foreground:                  #d4be98;
     foreground-alt:              #a89984;
     background:                  #282828;
     background-out: rgba(40,40,40, 0.8);
-    border: #433e3c;
+    border: #45403d;
     selected-background:         #4e4a43;
 }
 

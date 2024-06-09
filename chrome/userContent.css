@@ -1,13 +1,13 @@
 @-moz-document url-prefix("about:") {
 html, body {
 background-color: #282828 !important;
---in-content-page-color: #d5c4a1 !important;
+--in-content-page-color: #d4be98 !important;
 --in-content-primary-button-background: #a89984 !important;
 --in-content-primary-button-background-hover: #827769 !important;
 --newtab-primary-action-background: #a89984 !important;
---newtab-text-primary-color: #d5c4a1 !important;
+--newtab-text-primary-color: #d4be98 !important;
 --newtab-primary-action-background-pocket: #a89984 !important;
---newtab-background-color-secondary: #433e3c !important;
+--newtab-background-color-secondary: #45403d !important;
 --color-accent-primary: #a89984 !important;
 --color-accent-primary-hover: #827769 !important;
 --button-background-color-hover: #827769 !important;
@@ -20,7 +20,7 @@ font-family: Iosevka Aile !important;
 
 @-moz-document url("about:newtab"), url-prefix(about:home) {  
 .click-target-container *, .top-sites-list * {
-  color: #d5c4a1 !important;
+  color: #d4be98 !important;
    font-family: IosevkaTermSlab Nerd Font !important;
 }
   .tile {
@@ -46,12 +46,12 @@ font-family: Iosevka Aile !important;
   .search-handoff-button {
     background-color: #282828 !important;
     box-shadow: none !important;
-    border: 2px solid #433e3c !important;
+    border: 2px solid #45403d !important;
  }
  
 .fake-textbox {
    font-family: IosevkaTermSlab Nerd Font !important;
-   color: #d5c4a1 !important;
+   color: #d4be98 !important;
 }
  
 .top-site-icon {
