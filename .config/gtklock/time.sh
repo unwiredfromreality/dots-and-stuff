@@ -4,4 +4,4 @@ source ~/.config/gtklock/fonts.sh
 date=$(date +"%A, %B %-d")
 echo '<b>'"$date"'</b>'
 time=$(date +"%-I:%M")
-echo '<span size="112pt" face="'$LS_FONT_FACE'" weight="'$LS_FONT_WEIGHT'">'"$time"'</span>'
+echo '<span size="'$LS_FONT_SIZE'" face="'$LS_FONT_FACE'" weight="'$LS_FONT_WEIGHT'">'"$time"'</span>'
