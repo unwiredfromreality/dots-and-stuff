@@ -5,6 +5,14 @@
 My personal gruvbox-themed Arch Linux + labwc rice
 </div>
 
+# Screenshots
+![](/swappy-20240605-235904.png)
+![](/swappy-20240609-231511.png)
+![](/swappy-20240609-231529.png)
+![](/swappy-20240609-231543.png)
+
+[wallpaper](https://wallhaven.cc/w/l87rxp) [higher res version](https://i.ibb.co/8B1tkBH/wallhaven-l87rxp.jpg)
+
 # List of Applications
 - **WM / Compositor** - [labwc](https://labwc.github.io)
 - **Lockscreen** - [gtklock](https://github.com/jovanlanik/gtklock) ([script for syncing with waypaper](/.config/LSWallpaper.sh)) ([ios-style config here](/.config/gtklock))
@@ -71,10 +79,3 @@ cp -r chrome ~/.mozilla/firefox/*default-release/
 ```
 
 Spotify and spicetify may be installed manually; theme will be applied upon running `spicetify apply` for first time. 
-# Screenshots
-![](/swappy-20240605-235904.png)
-![](/swappy-20240609-231511.png)
-![](/swappy-20240609-231529.png)
-![](/swappy-20240609-231543.png)
-
-[wallpaper](https://wallhaven.cc/w/l87rxp) [higher res version](https://i.ibb.co/8B1tkBH/wallhaven-l87rxp.jpg)
