@@ -65,8 +65,8 @@ wget https://raw.githubusercontent.com/unwiredfromreality/dots-and-stuff/master/
 Note that firefox css theme will have to be applied manually. Spotify and spicetify may be installed manually; theme will be applied upon running `spicetify apply` for first time. 
 # Screenshots
 ![](/swappy-20240605-235904.png)
-![](/swappy-20240606-000010.png)
-![](/swappy-20240606-000033.png)
-![](/swappy-20240606-000045.png)
+![](/swappy-20240609-231511.png)
+![](/swappy-20240609-231529.png)
+![](/swappy-20240609-231543.png)
 
 [wallpaper](https://wallhaven.cc/w/l87rxp) [higher res version](https://i.ibb.co/8B1tkBH/wallhaven-l87rxp.jpg)
