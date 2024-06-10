@@ -3387,6 +3387,7 @@ border: 2px solid #45403d;
 
 .csd.popup decoration {
   border-radius: 6px;
+  border: none;
 }
 tooltip.csd decoration {
   border-radius: 6px;
