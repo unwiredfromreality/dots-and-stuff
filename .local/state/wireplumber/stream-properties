@@ -1,0 +1,15 @@
+[stream-properties]
+Audio/Sink:application.id:com.github.wwmm.easyeffects={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false}
+Audio/Sink:node.name:auto_null={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false}
+Audio/Source/Virtual:application.id:com.github.wwmm.easyeffects={"volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false}
+Audio/Source:media.name:WF-1000XM3\soutput={"mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["MONO"]}
+Input/Audio/Internal:media.name:Bluetooth\sinternal\scapture\sstream\sfor\sWF-1000XM3\sinput={"mute":false, "channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["MONO"]}
+Input/Audio:application.id:org.PulseAudio.pavucontrol={"channelVolumes":[1.000000], "channelMap":["MONO"], "mute":false, "volume":1.000000}
+Input/Audio:application.name:PipeWire\sALSA\s\oguvcview\c={"mute":false, "volume":1.000000, "channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"]}
+Input/Audio:media.role:Game={"channelMap":["MONO"], "volume":1.000000, "channelVolumes":[1.000000], "mute":false}
+Output/Audio:application.name:Chromium={"channelVolumes":[1.000000, 1.000000], "mute":false, "target":"easyeffects_sink", "volume":1.000000, "channelMap":["FL", "FR"]}
+Output/Audio:application.name:Firefox={"channelVolumes":[0.950000, 0.950000], "mute":false, "target":"easyeffects_sink", "volume":1.000000, "channelMap":["FL", "FR"]}
+Output/Audio:media.name:Redmi\sNote\s11\s(codec\saptX)={"volume":1.000000, "mute":false, "channelMap":["FL", "FR"], "channelVolumes":[1.000000, 1.000000]}
+Output/Audio:media.role:Game={"channelVolumes":[1.000000, 1.000000], "volume":1.000000, "channelMap":["FL", "FR"], "mute":false}
+Output/Audio:media.role:Music={"channelVolumes":[0.999954, 0.999954], "channelMap":["FL", "FR"], "target":"easyeffects_sink", "volume":1.000000, "mute":false}
+Output/Audio:media.role:Notification={"channelVolumes":[1.000000, 1.000000], "channelMap":["FL", "FR"], "mute":false, "volume":1.000000}

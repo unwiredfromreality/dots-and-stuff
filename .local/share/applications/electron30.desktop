@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Electron 30
+Icon=electron30
+Exec=electron30 %u
+Categories=Development;GTK;
+StartupNotify=true
+NoDisplay=true
