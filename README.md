@@ -1,3 +1,11 @@
+# Screenshots
+![](/swappy-20240629-030301.png)
+![](/swappy-20240629-030506.png)
+![](/swappy-20240629-030718.png)
+![](/swappy-20240629-030756.png)
+![](/swappy-20240629-030825.png)
+![](/swappy-20240629-030841.png)
+
 # List of Applications
 - **WM / Compositor** - [labwc](https://labwc.github.io)
 - **Lockscreen** - [gtklock](https://github.com/jovanlanik/gtklock) 
