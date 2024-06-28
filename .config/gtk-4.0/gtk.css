@@ -113,6 +113,11 @@ transition: none;
 window {
 outline: 1px solid @accent_color;
 }
+
+window.tiled-top, window.tiled-right, window.tiled-left, window.tiled-bottom {
+border-radius: 0;
+}
+
 window.maximized, window.fullscreen {
 border-radius: 0;
 outline: none;
