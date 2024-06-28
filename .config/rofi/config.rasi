@@ -1,0 +1,79 @@
+configuration {
+        modi: "menu:rofi-power-menu --choices=shutdown/reboot/logout/suspend/lockscreen/cancel2";
+	font: "Roboto Medium 14";
+        hover-select: true;
+    me-select-entry:                    "MousePrimary";
+    me-accept-entry:                    "!MousePrimary";
+}
+
+* {
+
+    foreground:                  #ebdbb2;
+    foreground-alt:              #ebdbb2;
+    background:                  rgba(40, 40, 40,0.5);
+    background-out: rgba(40,40,40, 0.8);
+    border: rgba(235, 219, 178,0.3);
+    selected-background:         rgba(235, 219, 178,0.5);
+}
+
+window {
+    background-color: var(background-out);
+    height: 100%;
+    width: 100%;
+    border: none;
+    fullscreen: true;
+}
+
+listview {
+border: none;
+spacing: 0.25em;
+}
+
+dummy {
+expand: true;
+}
+
+mainbox {
+padding: 0 40%;
+children: [dummy, listview, dummy];
+}
+
+element {
+padding: 8px 12px;
+border: 1px solid;
+border-color: var(border);
+border-radius: 4px;
+}
+
+element normal.normal {
+text-color:       var(foreground-alt);
+}
+
+element alternate.normal {
+background-color: var(background);
+}
+
+element selected.normal {
+    background-color: var(selected-background);
+    text-color:       var(foreground);
+    border-color: var(foreground-alt); 
+}
+
+element-text {
+    text-color:       var(foreground);
+}
+
+element-icon {
+    size:             24px;
+    text-color:       inherit;
+}
+
+inputbar {
+enabled: false;
+}
+
+scrollbar {
+handle-color: transparent;
+handle-width: 0;
+}
+

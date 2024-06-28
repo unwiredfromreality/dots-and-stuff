@@ -1,0 +1,173 @@
+{
+  "layer": "top",
+  "position": "bottom", 
+  "height": 34,
+  "reload_style_on_change": true,
+
+  "modules-left": [ "custom/rofi", "custom/spotify" ],
+  "modules-center": [ "wlr/taskbar" ],
+  "modules-right": [ "bluetooth", "network", "pulseaudio", "battery", "clock#time", "custom/notifikasi", "custom/wlsunset", "custom/power", "group/group-tray" ],
+ 
+ "custom/rofi": {
+	"format": "<span font_size='15pt'>󰀻</span>",
+	"on-click": "nwg-drawer",
+    "tooltip": false,
+ },
+
+  "wlr/taskbar": {
+    "format": "{icon}",
+    "all-outputs": true,
+    "icon-size": 24,
+    "icon-theme": "Gruvbox-Plus-Dark",
+    "on-click": "minimize-raise",
+    "on-click-middle": "close",
+  },
+
+  "custom/wlsunset": {
+    "format": "<big>󰤄</big>",
+    "on-click": "bash ~/.config/waybar/scripts/sunONOFF",
+    "tooltip-format": "Toggle night light{}",
+  },
+
+  "custom/notifikasi": {
+    "exec": "dunstctl count history",
+    "restart-interval": 1,
+    "format": "<big>󰂚  </big>{}",
+    "on-click": "bash ~/.config/waybar/scripts/notifikasi",
+    "on-click-right": "pkill dunst",
+    "tooltip-format": "Show notifications ({})",
+  },
+
+  "custom/power":{
+    "format": "<big>󰤆</big>",
+    "on-click": "bash ~/.config/waybar/scripts/togglerofi",
+    "tooltip-format": "Power options{}",
+  },
+
+  "custom/spotify": {
+    "exec": "bash ~/.config/waybar/scripts/fixampersand-spotify",
+    "format": "<span size='10000'><big>󰐊 </big></span>{}",
+    "return-type": "json",
+    "on-click": "playerctl -p spotify play-pause",
+    "on-scroll-down": "playerctl -p spotify next",
+    "on-scroll-up": "playerctl -p spotify previous",
+    "smooth-scrolling-threshold": 5,
+    "tooltip": false,
+  },
+
+  "memory": {
+    "interval": 2,
+    "format": "<big>󰍛  </big>{used:0.1f}G"
+  },
+  "cpu": {
+    "interval": 2,
+    "format": "<big>󰻠  </big>{usage}%",
+  },
+"bluetooth": {
+	// "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+	"format": "<big>󰂯</big>",
+	"format-disabled": "<big>󰂲</big>", 
+	"format-connected": "<big>󰂱 </big> {num_connections}",
+        "format-connected-battery": "<big>󰂱 </big> {num_connections} ({device_battery_percentage}%)",
+	"tooltip-format": "{controller_alias}\t{controller_address}",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "blueman-manager",
+},
+  "network": {
+	"interval": 1,
+	"format-wifi": "<big>{icon}</big>",
+        "format-disconnected": "<big>󰤭 </big>",
+	"format-ethernet": "<big>󰈀</big>",
+	"on-click": "kitty --class nmtui -T 'Network Settings' nmtui",
+        "tooltip-format": "<big>󱦲 </big>{bandwidthUpBytes}  <big>󱦳 </big>{bandwidthDownBytes}",
+	"format-icons": [
+		"󰤯 ",
+		"󰤟 ",
+		"󰤢 ",
+		"󰤥 ", 
+		"󰤨 "
+	]
+  },
+  "pulseaudio": {
+    "format": "<big>{icon}  </big>{volume}%",
+    "ignored-sinks": ["Easy Effects Sink"],
+    "on-click": "pavucontrol",
+    "format-icons": {
+           "default": ["󰕿", "󰖀", "󰕾"]
+    },
+  },
+
+  "clock#time": {
+    "interval": 1,
+    "format": "<big>󰥔  </big>{:%I:%M}",
+    "tooltip-format": "{calendar}",
+    "calendar": {
+                    "mode"          : "month",
+                    "mode-mon-col"  : 3,
+                    "weeks-pos"     : "right",
+                    "on-scroll"     : 1,
+                    "format": {
+                              "months":     "<b>{}</b>",
+                              "days":       "{}",
+                              "weeks":      "W{}",
+                              "weekdays":   "{}",
+                              "today":      "<u>{}</u>"
+                              }
+                    },
+  },
+
+  "battery": {
+    "states": {
+       "full": 99,
+       "lowish": 30,
+       "low": 15
+    },
+    "interval": 1,
+    "format-discharging": "<big>{icon} </big>{capacity}%",
+    "format-full": "<big>{icon} </big>{capacity}%",
+    "format-discharging-low": "<span foreground='#ea6962'><big>{icon} </big></span>{capacity}%",
+    "format-discharging-lowish": "<span foreground='#e78a4e'><big>{icon} </big></span>{capacity}%",
+    "format-charging": "<big>{icon} </big>{capacity}% 󱐋",
+    "format-charging-low": "<span foreground='#ea6962'><big>{icon} </big></span>{capacity}% 󱐋",
+    "format-charging-lowish": "<span foreground='#e78a4e'><big>{icon} </big></span>{capacity}% 󱐋",
+    "format-icons": [
+                "󰂎",
+                "󰁺",
+                "󰁻",
+                "󰁼",
+                "󰁽",
+                "󰁾",
+                "󰁿",
+                "󰂀",
+                "󰂁",
+                "󰂂",
+                "󰁹"
+        ]
+   },
+
+  "tray": {
+    	"icon-size": 16,
+    "spacing": 8,
+	"show-passive-items": true
+  },
+
+  "custom/tray-icon": {
+  "format": "<big>󰅁</big>",
+  "tooltip-format": "Show tray icons{}",
+  },
+
+  "group/group-tray": {
+  "orientation": "horizontal",
+  "drawer": {
+     "transition-duration": 0,
+     "children-class": "tray-icons",
+     "transition-left-to-right": false,
+      },
+  "modules": [ 
+    "custom/tray-icon",
+    "tray"
+  ]
+  }
+}
+

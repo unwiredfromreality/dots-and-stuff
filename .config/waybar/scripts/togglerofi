@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if pgrep -x "rofi" > /dev/null
+then
+    pkill rofi > /dev/null 2>&1
+else
+    bash -c 'PATH={$PATH}:$HOME/.local/bin rofi -show > /dev/null 2>&1 &'
+fi

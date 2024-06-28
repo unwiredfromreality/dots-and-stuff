@@ -1,0 +1,1 @@
+.config/waybar/scripts/spotify.py --player spotify | sed -u 's/&/\&amp;/'

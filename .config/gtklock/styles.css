@@ -1,0 +1,36 @@
+* {
+box-shadow: none;
+}
+
+window {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#playerctl-revealer > box {
+background-color: #f2e5bc;
+border-radius: 4px;
+padding: 1em;
+margin-bottom: 4em;
+}
+
+#clock-label  {
+font-size: 0;
+}
+
+/* hide "Password:" label */
+#input-label {
+  font-size: 0;
+}
+
+#input-field {
+}
+
+#runshell {
+margin-top: 5em;
+}
+
+#window-box {
+margin-top: 54em;
+}

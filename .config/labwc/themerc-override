@@ -1,0 +1,55 @@
+# general
+border.width: 1
+padding.height: 2
+
+# window border
+window.active.border.color: #654735
+window.inactive.border.color: #654735
+
+# ToggleKeybinds status indicator
+window.active.indicator.toggled-keybind.color: #ff0000
+
+# window titlebar background
+window.active.title.bg.color: #f2e5bc
+window.inactive.title.bg.color: #f2e5bc
+
+# window titlebar text
+window.active.label.text.color: #654735
+window.inactive.label.text.color: #ac9678
+window.label.text.justify: left
+
+# window buttons
+window.active.button.unpressed.image.color: #65473550
+window.active.button.close.unpressed.image.color: #654735cc
+window.inactive.button.unpressed.image.color: #65473550
+#window.active.button.menu.unpressed.image.color: #65473550
+#window.inactive.button.menu.unpressed.image.color: #65473550
+
+# menu
+menu.overlap.x: 0
+menu.overlap.y: 0
+menu.width.min: 20
+menu.width.max: 200
+menu.items.bg.color: #f2e5bc
+menu.items.text.color: #654735
+menu.items.active.bg.color: #ebdbb2
+menu.items.active.text.color: #4f3829
+menu.items.padding.x: 7
+menu.items.padding.y: 4
+menu.separator.width: 1
+menu.separator.padding.width: 6
+menu.separator.padding.height: 3
+menu.separator.color: #65473580
+
+# on screen display (window-cycle dialog)
+osd.bg.color: #f2e5bc
+osd.border.color: #65473580
+osd.border.width: 1
+osd.label.text.color: #654735
+
+# width can be set as percent (of screen width)
+# example 50% or 75% instead of 600, max 100%
+osd.window-switcher.width: 40%
+
+snapping.overlay.region.bg.color: #4c7a5d80
+snapping.overlay.edge.bg.color: #4c7a5d80

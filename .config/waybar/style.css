@@ -1,0 +1,132 @@
+@import url('colors');
+
+* {
+  border: none;
+  font-family: Roboto Mono;
+  font-weight: 500;
+  font-size: 13.75px;
+  min-height: 0;
+  transition: none;
+}
+
+tooltip {
+	background: @theme_bg_color;
+        border: 1px solid alpha(@theme_fg_color,0.3);
+        border-radius: 4px;
+}
+
+tooltip label {
+  color: @theme_fg_color;
+  padding: 0.3em;
+  font-weight: normal;
+}
+
+window#waybar {
+  border-top: 1px solid alpha(@theme_fg_color,0.15);
+  background: @theme_bg_color;
+  color: @theme_fg_color;
+}
+
+#custom-rofi {
+  padding: 0 0.8em 0 0.6em;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-left: 4px;
+  border-radius: 4px;
+  font-style: italic;
+}
+
+#taskbar button.active {
+  background: alpha(@theme_fg_color, 0.3);
+  border-radius: 4px;
+  padding: 2px;
+  border: 1px solid @theme_fg_color;
+}
+
+#taskbar button {
+  color: #654735;
+  background: transparent;
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 4px;
+  padding: 2px 3px 2px 3px;
+}
+
+#taskbar button:hover {
+  background: alpha(@theme_fg_color, 0.5);
+  border-radius: 4px;
+}
+
+#disk:hover,
+#clock:hover,
+#battery:hover,
+#bluetooth:hover,
+#pulseaudio:hover,
+#memory:hover,
+#cpu:hover,
+#network:hover,
+#custom-rofi:hover,
+#custom-spotify:hover,
+#custom-wlsunset:hover,
+#custom-power:hover,
+#custom-notifikasi:hover,
+#custom-tray-icon:hover,
+#tray > .passive:hover,
+#tray > .active:hover,
+#tray > .needs-attention:hover {
+  background: alpha(@theme_fg_color, 0.3);
+}
+
+#tray > .passive:hover,
+#tray > .active:hover,
+#tray > .needs-attention:hover {
+border-radius: 4px;
+}
+
+#disk,
+#clock,
+#battery,
+#bluetooth,
+#pulseaudio,
+#memory,
+#cpu,
+#network,
+#workspaces,
+#custom-spotify,
+#custom-power,
+#custom-notifikasi,
+#custom-wlsunset,
+#custom-tray-icon,
+#tray {
+  background: transparent;
+  padding: 0 0.8em;
+  margin-left: 2px;
+  margin-right: 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+#tray {
+background: transparent;
+padding: 0 0.4em;
+}
+
+#custom-tray-icon {
+padding: 0px 8px;
+margin-right: 4px;
+}
+
+#custom-power {
+padding: 0 12px 0 8px;
+}
+
+#custom-wlsunset {
+padding: 0 10px 0 8px;
+}
+
+#network.ethernet {
+padding: 0 1.2em 0 0.8em;
+}

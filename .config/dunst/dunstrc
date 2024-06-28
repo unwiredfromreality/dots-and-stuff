@@ -1,0 +1,42 @@
+[global]
+layer								= top
+font								= "Roboto 10"
+follow								= mouse
+notification_limit					= 16
+
+# size, position and appearance
+# The window position was chosen for the gaps settings of the window manager and for a 1080p monitor
+frame_width							= 0
+width								= 400
+height								= 400
+origin								= bottom-right
+offset								= 25x25
+corner_radius						= 4
+
+# icons
+min_icon_size						= 24
+
+indicate_hidden						= false
+separator_height					= 2
+padding								= 8
+horizontal_padding					= 8
+text_icon_padding					= 16
+gap_size							= 6
+separator_color						= frame
+frame_width                                             = 1
+
+# behavior
+sort								= update
+format								= "<big><b>%s</b></big>\n<span font_family='Roboto Mono'>%b</span>"
+show_indicators						= false
+mouse_left_click					= do_action
+title								= "Dunst"
+class								= "dunst"
+timeout								= 10
+
+highlight							= "#654735"
+background							= "#f2e5bc" # https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4
+foreground							= "#654735"
+frame_color							= "#65473580"
+
+# vim:ft=cfg

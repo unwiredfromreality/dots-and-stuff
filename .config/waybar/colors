@@ -1,0 +1,2 @@
+@define-color theme_bg_color alpha(#6c782e,0.8);
+@define-color theme_fg_color #ebdbb2;
