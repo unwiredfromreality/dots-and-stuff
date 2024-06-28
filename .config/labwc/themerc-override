@@ -19,9 +19,9 @@ window.inactive.label.text.color: #ac9678
 window.label.text.justify: left
 
 # window buttons
-window.active.button.unpressed.image.color: #65473550
-window.active.button.close.unpressed.image.color: #654735cc
-window.inactive.button.unpressed.image.color: #65473550
+window.active.button.unpressed.image.color: #654735ff
+#window.active.button.close.unpressed.image.color: #654735cc
+window.inactive.button.unpressed.image.color: #65473580
 #window.active.button.menu.unpressed.image.color: #65473550
 #window.inactive.button.menu.unpressed.image.color: #65473550
 
